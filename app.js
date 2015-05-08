@@ -8,7 +8,7 @@ Ext.application({
 
     extend: 'NHC_LINK.Application',
     
-    autoCreateViewport: 'NHC_LINK.view.main.Main'
+    autoCreateViewport: 'NHC_LINK.view.login.LoginView'
 	
     //-------------------------------------------------------------------------
     // Most customizations should be made to NHC_LINK.Application. If you need to
