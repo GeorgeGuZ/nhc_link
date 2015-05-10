@@ -50,7 +50,8 @@ Ext.define('NHC_LINK.view.login.LoginView', {
                         {
                             xtype: 'button',
                             text: 'Sign up',
-                            margin: '0 10 0 0'
+                            margin: '0 10 0 0',
+                            handler: 'onSignUp'
                         },
                         {
                             xtype: 'button',

@@ -5,19 +5,10 @@
 Ext.define('NHC_LINK.controller.login.LoginController', {
     extend: 'Ext.app.ViewController',
 
-    requires: [
-        'Ext.window.MessageBox'
-    ],
-
     alias: 'controller.login_controller',
 
-    onClickButton: function () {
-        Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
-    },
-
-    onConfirm: function (choice) {
-        if (choice === 'yes') {
-            //
-        }
+    onSignUp: function () {
+        this.getView().destroy();
+        Ext.create('NHC_LINK.view.signup.SignUpView')
     }
 });
